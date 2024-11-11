@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Inter, Manrope } from "next/font/google";
+
+import { Footer } from "@/components/layout/footer";
+import { Navbar } from "@/components/layout/navbar";
+import { cn } from "@/lib/utils";
+
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const inter = Inter({
+  variable: "--font-inter",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const manrope = Manrope({
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -26,9 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={cn(
+          inter.className,
+          manrope.variable,
+          "scroll-smooth antialiased"
+        )}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
