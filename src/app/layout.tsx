@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import "../styles/globals.css";
 
 const inter = Inter({
-  variable: "--font-inter",
+  subsets: ["latin"],
 });
 const manrope = Manrope({
   variable: "--font-manrope",
