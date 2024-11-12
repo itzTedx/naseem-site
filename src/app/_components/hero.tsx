@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <section className="relative pt-8 lg:pt-32">
+    <section className="relative pt-8 lg:py-40">
       <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         {/* <div className="mx-auto mb-4 flex w-60 items-center justify-between rounded-full border border-indigo-600 p-1">
           <span className="font-inter ml-3 text-xs font-medium text-gray-900">
@@ -30,12 +30,12 @@ export const Hero = () => {
             </svg>
           </Link>
         </div> */}
-        <h1 className="font-manrope mx-auto mb-5 max-w-3xl text-center text-4xl font-bold leading-[50px] tracking-tighter text-primary-foreground md:text-7xl">
+        <h1 className="mx-auto mb-5 max-w-3xl text-center font-manrope text-4xl font-bold leading-[50px] tracking-tighter text-primary-foreground md:text-7xl">
           Building Dreams,
           <br />
           <span className="text-orange-500">Crafting Reality </span>
         </h1>
-        <p className="mx-auto mb-9 max-w-2xl text-balance text-center text-base font-normal leading-7 text-gray-500">
+        <p className="mx-auto mb-9 max-w-2xl text-balance text-center text-lg font-normal leading-7 text-gray-500">
           At Naseem al Muwaliah, we specialize in delivering high-quality
           construction, manpower, and project management services that meet the
           needs of modern industries.

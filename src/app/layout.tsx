@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { cn } from "@/lib/utils";
 
-import "./globals.css";
+import "../styles/globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
