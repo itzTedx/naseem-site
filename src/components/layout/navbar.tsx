@@ -13,8 +13,8 @@ export const Navbar = () => {
         href={"/"}
         className="flex items-center gap-3 transition-transform active:scale-95"
       >
-        <Logo className="h-9 w-auto" />
-        <LogoType className="h-6 w-full" />
+        <Logo className="h-10 w-auto" />
+        <LogoType className="h-9 w-full" />
       </Link>
 
       <nav>
