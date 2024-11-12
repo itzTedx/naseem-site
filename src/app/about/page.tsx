@@ -7,8 +7,8 @@ import WhyUs from "./_components/why-us";
 export default function About() {
   return (
     <main className="">
-      <div className="relative py-20 text-center">
-        <h1 className="pb-3 text-4xl font-bold text-primary-foreground">
+      <div className="relative py-4 text-center md:py-20">
+        <h1 className="pb-3 text-3xl font-bold text-primary-foreground md:text-4xl">
           Let&apos;s know <span className="text-orange-500">About us</span>
         </h1>
         <p className="container max-w-3xl">
@@ -18,7 +18,7 @@ export default function About() {
           projects. Learn about our mission, values, and dedicated team shaping
           the future with excellence.
         </p>
-        <div className="relative mx-auto my-12 aspect-video max-w-3xl overflow-hidden rounded-2xl">
+        <div className="relative mx-auto my-12 aspect-video max-w-3xl overflow-hidden rounded-2xl max-md:mx-6">
           <Image
             src="/images/peoples.webp"
             fill
@@ -31,7 +31,7 @@ export default function About() {
             src="https://pagedone.io/asset/uploads/1691055810.png"
             fill
             alt=""
-            className="-z-10"
+            className="-z-10 object-cover"
           />
         </div>
       </div>
@@ -50,7 +50,9 @@ export default function About() {
           results that stand the test of time.
         </p>
       </section>
-      <section className="container grid max-w-4xl grid-cols-2 gap-9 py-28">
+
+      {/* Mission and vision */}
+      <section className="container grid max-w-4xl gap-9 py-12 md:grid-cols-2 md:py-28">
         <div className="rounded-xl bg-primary p-9">
           <h3 className="pb-3 text-3xl font-semibold">Our Mission</h3>
           <p className="text-lg">
@@ -72,7 +74,7 @@ export default function About() {
       <div className="w-full bg-primary-foreground/10">
         <section className="container max-w-5xl py-28">
           <h4 className="pb-3 text-2xl font-medium">Our Values</h4>
-          <div className="grid grid-cols-5 gap-4">
+          <div className="grid gap-4 md:grid-cols-5">
             <div className="col-span-3 rounded-xl border bg-background p-6">
               <h5 className="pb-2 text-2xl font-bold text-primary-foreground">
                 Integrity
@@ -83,7 +85,7 @@ export default function About() {
                 and partners.
               </p>
             </div>
-            <div className="col-span-2 rounded-xl border bg-background p-6">
+            <div className="col-span-3 rounded-xl border bg-background p-6 md:col-span-2">
               <h5 className="pb-2 text-2xl font-bold text-primary-foreground">
                 Quality
               </h5>
@@ -92,7 +94,7 @@ export default function About() {
                 quality is our top priority in every step of the process.
               </p>
             </div>
-            <div className="col-span-2 rounded-xl border bg-background p-6">
+            <div className="col-span-3 rounded-xl border bg-background p-6 md:col-span-2">
               <h5 className="pb-2 text-2xl font-bold text-primary-foreground">
                 Safety
               </h5>

@@ -50,13 +50,13 @@ export function Cta() {
               </Link>
             </div>
           </div>
-          <div className="relative h-80 max-md:mt-16">
+          <div className="relative max-md:my-12 md:h-80">
             <Image
               alt="App screenshot"
               src="/images/hand-shake.webp"
               width={1824}
               height={1080}
-              className="absolute -left-4 top-0 w-[45rem] max-w-none bg-white/5 ring-1 ring-white/10"
+              className="bg-white/5 ring-1 ring-white/10 max-md:rounded-xl md:absolute md:-left-4 md:top-0 md:w-[45rem] md:max-w-none"
             />
           </div>
         </div>

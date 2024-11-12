@@ -4,6 +4,7 @@ import { IconLocation, IconMenu2, IconPhone } from "@tabler/icons-react";
 
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetHeader,
   SheetTitle,
@@ -67,14 +68,16 @@ export const Navbar = () => {
             <ul className="flex flex-col gap-9">
               {NAV_LINKS.map((link, i) => (
                 <li key={i} className="transition-transform active:scale-95">
-                  <Link
-                    href={link.href}
-                    className={cn(
-                      "py-4 font-semibold text-primary-foreground transition-colors duration-300 hover:text-primary"
-                    )}
-                  >
-                    {link.label}
-                  </Link>
+                  <SheetClose asChild>
+                    <Link
+                      href={link.href}
+                      className={cn(
+                        "py-4 font-semibold text-primary-foreground transition-colors duration-300 hover:text-primary"
+                      )}
+                    >
+                      {link.label}
+                    </Link>
+                  </SheetClose>
                 </li>
               ))}
             </ul>

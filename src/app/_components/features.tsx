@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const Features = () => {
   return (
-    <section className="container px-8 py-10 lg:py-28">
-      <div className="container mx-auto mb-10 text-center lg:mb-20">
+    <section className="container py-10 md:px-8 lg:py-28">
+      <div className="mx-auto mb-10 text-center md:container lg:mb-20">
         <h2 className="mb-2 block text-base font-bold uppercase leading-relaxed text-primary">
           Our Services
         </h2>
@@ -16,7 +16,7 @@ export const Features = () => {
           us help you turn your vision into reality.
         </p>
       </div>
-      <div className="container mx-auto mb-8 grid grid-cols-1 gap-y-8 lg:grid-cols-4 lg:gap-x-8">
+      <div className="mx-auto mb-8 grid grid-cols-1 gap-y-8 md:container lg:grid-cols-4 lg:gap-x-8">
         <div className="relative col-span-2 flex flex-col overflow-hidden rounded-xl bg-gray-100 bg-clip-border text-gray-700">
           <div className="p-6 text-center">
             <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
@@ -61,7 +61,7 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-8">
+      <div className="mx-auto grid grid-cols-1 gap-y-8 md:container lg:grid-cols-3 lg:gap-x-8">
         <div className="relative col-span-2 flex flex-col overflow-hidden rounded-xl bg-gray-100 bg-clip-border text-gray-700">
           <div className="p-6 text-center">
             <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
@@ -83,7 +83,7 @@ export const Features = () => {
             />
           </div>
         </div>
-        <div className="grid grid-rows-2 gap-8">
+        <div className="grid gap-8 md:grid-rows-2">
           <div className="relative col-span-1 flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700">
             <div className="p-6 text-center">
               <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
@@ -95,7 +95,7 @@ export const Features = () => {
               </p>
             </div>
           </div>
-          <div className="relative col-span-1 flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700">
+          <div className="relative col-span-1 hidden flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 md:flex">
             <div className="p-6 text-center">
               <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
                 Get in Touch

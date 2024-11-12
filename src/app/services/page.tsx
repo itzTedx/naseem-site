@@ -12,19 +12,19 @@ import {
 export default function Services() {
   return (
     <main className="min-h-screen">
-      <header className="-mt-28 rounded-b-3xl bg-blue-300 pb-20 pt-44">
-        <div className="container flex items-center justify-between">
-          <h1 className="text-5xl font-bold uppercase">
+      <header className="-mt-28 rounded-b-3xl bg-blue-300 pb-12 pt-28 md:pb-20 md:pt-44">
+        <div className="container flex flex-col items-center justify-between md:flex-row">
+          <h1 className="text-2xl font-bold uppercase md:text-5xl">
             Building Trust, Crafting Excellence
           </h1>
-          <p className="text-right text-lg">
+          <p className="md:text-right md:text-lg">
             Comprehensive solutions in manpower, construction, and project
             management designed to bring every project to life with quality and
             precision.
           </p>
         </div>
       </header>
-      <section className="container grid grid-cols-3 gap-6 py-20">
+      <section className="container grid gap-6 py-12 md:grid-cols-3 md:py-20">
         <Card>
           <CardHeader>
             <Image

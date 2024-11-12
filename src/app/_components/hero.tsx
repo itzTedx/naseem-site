@@ -76,7 +76,7 @@ export const Hero = () => {
         fill
         alt=""
         priority
-        className="-z-10"
+        className="-z-10 object-cover"
       />
     </section>
   );
