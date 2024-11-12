@@ -25,7 +25,7 @@ export const Navbar = () => {
                 href={link.href}
                 className={cn(
                   "px-5 py-3 font-semibold text-primary-foreground transition-colors duration-300 hover:text-primary",
-                  link.href === "/contact" &&
+                  link.label === "Contact" &&
                     "rounded-md bg-orange-500 text-background hover:bg-primary-foreground"
                 )}
               >
