@@ -11,6 +11,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 const manrope = Manrope({
+  subsets: ["latin"],
   variable: "--font-manrope",
 });
 

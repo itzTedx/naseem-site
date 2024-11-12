@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <section className="relative pt-8 lg:py-40">
+    <section className="relative pt-8 lg:py-20">
       <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         {/* <div className="mx-auto mb-4 flex w-60 items-center justify-between rounded-full border border-indigo-600 p-1">
           <span className="font-inter ml-3 text-xs font-medium text-gray-900">
@@ -30,7 +30,7 @@ export const Hero = () => {
             </svg>
           </Link>
         </div> */}
-        <h1 className="mx-auto mb-5 max-w-3xl text-center font-manrope text-4xl font-bold leading-[50px] tracking-tighter text-primary-foreground md:text-7xl">
+        <h1 className="mx-auto mb-5 max-w-3xl text-center font-manrope text-4xl font-bold leading-[50px] tracking-tighter text-primary-foreground md:text-6xl">
           Building Dreams,
           <br />
           <span className="text-orange-500">Crafting Reality </span>
@@ -62,19 +62,20 @@ export const Hero = () => {
             />
           </svg>
         </Link>
-        {/* <div className="relative z-10 flex aspect-[16/10] justify-center">
+        <div className="relative z-10 mx-auto flex aspect-[16/10] max-w-4xl justify-center">
           <Image
             src="/images/construction-site.webp"
             alt="A busy construction site with diverse buildings, workers in safety gear, and heavy machinery, emphasizing teamwork, quality, and safety."
             fill
-            className="h-auto rounded-t-3xl object-cover"
+            className="h-auto rounded-2xl object-cover"
           />
-        </div> */}
+        </div>
       </div>
       <Image
         src="https://pagedone.io/asset/uploads/1691055810.png"
         fill
         alt=""
+        priority
         className="-z-10"
       />
     </section>
