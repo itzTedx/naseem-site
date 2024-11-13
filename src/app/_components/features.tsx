@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+
+import { Button } from "@/components/ui/button";
 
 export const Features = () => {
   return (
@@ -84,26 +87,72 @@ export const Features = () => {
           </div>
         </div>
         <div className="grid gap-8 md:grid-rows-2">
-          <div className="relative col-span-1 flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700">
-            <div className="p-6 text-center">
-              <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
-                Get in Touch
-              </h4>
-              <p className="leading-6s mx-auto block max-w-xs text-center text-base font-normal !text-gray-500 text-inherit">
-                Have a project in mind? Let&apos;s talk! Our team is ready to
-                help you take the next step towards success.
-              </p>
-            </div>
-          </div>
           <div className="relative col-span-1 hidden flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 md:flex">
             <div className="p-6 text-center">
               <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
+                Explore more about us
+              </h4>
+              <p className="mx-auto block max-w-xs text-balance text-center text-sm font-normal leading-5 !text-gray-500">
+                Whether it&apos;s residential, commercial, or industrial, we
+                bring together skilled manpower, strategic project management,
+                and innovative solutions to deliver construction projects of all
+                scales and types.
+              </p>
+              <Button
+                asChild
+                className="border-2 border-orange-500 bg-transparent text-orange-600 hover:bg-primary/20"
+                size="lg"
+              >
+                <Link href="/services" className="mt-4">
+                  Explore our Services
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div className="relative col-span-1 flex flex-col items-center justify-center rounded-xl bg-orange-500 bg-clip-border">
+            <div className="p-6 text-center">
+              <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-background">
                 Get in Touch
               </h4>
-              <p className="leading-6s mx-auto block max-w-xs text-center text-base font-normal !text-gray-500 text-inherit">
+              <p className="mx-auto block max-w-xs text-center text-base font-normal leading-6 text-background/80">
                 Have a project in mind? Let&apos;s talk! Our team is ready to
                 help you take the next step towards success.
               </p>
+              <Button asChild className="" size="lg" variant="outline">
+                <Link href="/contact" className="mt-4">
+                  Contact now
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
+                      stroke="black"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
