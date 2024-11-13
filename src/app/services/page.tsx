@@ -44,7 +44,7 @@ export default function Services() {
         <h2 className="pb-6 text-center text-3xl font-bold text-primary-foreground">
           Offering comprehensive solutions:
         </h2>
-        <div className="grid gap-9 md:grid-cols-3">
+        <div className="grid gap-9 sm:grid-cols-2 md:grid-cols-3">
           <Card>
             <CardHeader>
               <Image
@@ -124,7 +124,7 @@ export default function Services() {
             any scale or complexity.
           </p>
         </div>
-        <div className="grid gap-9 md:grid-cols-3">
+        <div className="grid gap-9 sm:grid-cols-2 md:grid-cols-3">
           {SERVICES.map(({ title, img, alt }, i) => (
             <Card key={`${i + 1}-${title}`} className="p-0">
               <CardHeader className="relative aspect-[5/4]">

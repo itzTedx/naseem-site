@@ -24,8 +24,8 @@ export const Navbar = () => {
         href={"/"}
         className="flex items-center gap-3 transition-transform active:scale-95"
       >
-        <Logo className="h-5 w-auto flex-shrink-0 md:h-10" />
-        <LogoType className="h-5 w-auto flex-shrink-0 md:h-9" />
+        <Logo className="h-6 w-auto flex-shrink-0 md:h-10" />
+        <LogoType className="h-7 w-auto flex-shrink-0 md:h-9" />
       </Link>
 
       <nav className="hidden lg:block">
