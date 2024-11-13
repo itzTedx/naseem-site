@@ -17,7 +17,7 @@ import { SERVICES } from "@/constants";
 
 export function Services() {
   return (
-    <section className="container pb-24">
+    <section className="container pb-24 max-md:pt-12">
       <div className="mx-auto mb-6 flex w-fit items-center justify-between rounded-full border border-orange-600 p-1">
         <span className="font-inter ml-3 mr-3 text-xs font-medium text-gray-900">
           Building Excellence from the Ground Up

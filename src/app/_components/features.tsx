@@ -19,7 +19,7 @@ export const Features = () => {
           us help you turn your vision into reality.
         </p>
       </div>
-      <div className="mx-auto mb-8 grid grid-cols-1 gap-y-8 md:container lg:grid-cols-4 lg:gap-x-8">
+      <div className="mx-auto mb-8 grid grid-cols-1 gap-y-4 md:container md:mb-8 md:gap-y-8 lg:grid-cols-4 lg:gap-x-8">
         <div className="relative col-span-2 flex flex-col overflow-hidden rounded-xl bg-gray-100 bg-clip-border text-gray-700">
           <div className="p-6 text-center">
             <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
@@ -64,7 +64,7 @@ export const Features = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto grid grid-cols-1 gap-y-8 md:container lg:grid-cols-3 lg:gap-x-8">
+      <div className="mx-auto grid grid-cols-1 gap-y-4 md:container md:gap-y-8 lg:grid-cols-3 lg:gap-x-8">
         <div className="relative col-span-2 flex flex-col overflow-hidden rounded-xl bg-gray-100 bg-clip-border text-gray-700">
           <div className="p-6 text-center">
             <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
@@ -87,7 +87,7 @@ export const Features = () => {
           </div>
         </div>
         <div className="grid gap-8 md:grid-rows-2">
-          <div className="relative col-span-1 hidden flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700 md:flex">
+          <div className="relative col-span-1 flex flex-col rounded-xl bg-gray-100 bg-clip-border text-gray-700">
             <div className="p-6 text-center">
               <h4 className="mb-2 block text-2xl font-bold leading-snug tracking-normal text-primary-foreground">
                 Explore more about us
