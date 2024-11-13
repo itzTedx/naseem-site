@@ -14,7 +14,7 @@ export default function Contact() {
                 Write us a few words about your project and product we&apos;ll
                 get back to you within 24 hours.
               </p>
-              <div className="grid grid-cols-2 gap-9">
+              <div className="grid gap-9 md:grid-cols-2">
                 <div className="flex flex-col items-center justify-center bg-primary/5 p-16 text-center">
                   <svg
                     width="32"

@@ -113,8 +113,8 @@ export default function Services() {
         </div>
       </section>
       <section className="container pb-12 md:pb-20">
-        <div className="grid grid-cols-3 pb-12">
-          <h3 className="text-3xl font-semibold text-primary">
+        <div className="grid pb-12 max-md:gap-4 md:grid-cols-3">
+          <h3 className="text-3xl font-semibold text-primary max-md:col-span-2">
             Services we provide:
           </h3>
           <p className="col-span-2 text-pretty">
